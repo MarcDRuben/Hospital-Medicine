@@ -15,7 +15,7 @@ In a study <https://www.biorxiv.org/content/10.1101/617944v1>  we analyzed the d
 Extract patient EMR data from Epic. Requires SQL. Code may need to be adapted to institutional differences in Epic.
 
 ## Part 2. Evaluate 24 h patterns in TREATMENT
-Evaluate the daily distribution of treatment orders and first-doses administered. Requires R.
+Characterize the daily distribution of treatment orders and first-doses administered. Requires R.
 
 ## Part 3. Evaluate 24 h patterns in RESPONSE
 Characterize the clinical response to hydralazine, an acutely administered antihypertensive, as a function of time of day. Requires R.
