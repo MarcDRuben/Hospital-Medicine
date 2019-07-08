@@ -3,7 +3,7 @@ Tools to study round-the-clock hospital medicine
 Marc Ruben
 7/8/2019
 
-In a recent study <https://www.biorxiv.org/content/10.1101/617944v1> we
+In a study <https://www.biorxiv.org/content/10.1101/617944v1> we
 analyzed the daily distribution of ~120K doses of 12 separate drugs in
 ~1.5K inpatients at a major children’s hospital in the U.S. Treatment
 orders and administration (first-doses) were strongly
@@ -16,16 +16,15 @@ diagnoses, and hospital units.
 
 ## Part 1. Extract EMR data from Epic
 
-This repository describes how to extract patient data from Epic. Explain
-that some adaptation of this code may be necessary depending upon the
-Epic systems at user’s institution.
+Extract patient EMR data from Epic. Requires SQL. Code may need to be
+adapted to institutional differences in Epic.
 
-## Part 2. Evaluate 24 h TREATMENT profile
+## Part 2. Evaluate 24 h patterns in TREATMENT
 
-Summarise the objective and methodology. Describe the code that is
-provided
+Evaluate the daily distribution of treatment orders and first-doses
+administered. Requires R.
 
-## Part 3. Evaluate 24 h RESPONSE profile
+## Part 3. Evaluate 24 h patterns in RESPONSE
 
-Summarise the objective and methodology. Describe the code that is
-provided
+Characterize the clinical response to hydralazine, an acutely
+administered antihypertensive, as a function of time of day. Requires R.
