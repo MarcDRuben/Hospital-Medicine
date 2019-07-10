@@ -9,11 +9,11 @@ function of time-of-day**
 
 ## Background
 
-We analyzed the daily distribution of ~120K doses of 12 separate drugs
-in ~1.5K inpatients at a major children’s hospital in the U.S. Treatment
-orders and first-doses administered were strongly time-of-day-dependent
-(figure below). These 24 h rhythms were consistent across drugs,
-diagnoses, and hospital units.
+We TEST analyzed the daily distribution of ~120K doses of 12 separate
+drugs in ~1.5K inpatients at a major children’s hospital in the U.S.
+Treatment orders and first-doses administered were strongly
+time-of-day-dependent (figure below). These 24 h rhythms were consistent
+across drugs, diagnoses, and hospital units.
 <https://www.biorxiv.org/content/10.1101/617944v1>
 
 ![image caption Source](images/GitRepo_AllDrugWheels.png)
@@ -23,8 +23,8 @@ analyses.
 
 ## Part 1. Extract EMR data from Epic
 
-Extract patient EMR data from Epic. Requires SQL. Code may need to be
-adapted to institutional differences in Epic.
+Extract patient EMR data from Epic. Requires SQL. Code will need to be
+adapted to institutional differences in how Epic data is maintained.
 
 ## Part 2. Evaluate 24 h patterns in TREATMENT
 
