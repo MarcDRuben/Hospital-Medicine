@@ -9,7 +9,7 @@ function of time-of-day**
 
 ## Background
 
-We TEST analyzed the daily distribution of ~120K doses of 12 separate
+We TESTER analyzed the daily distribution of ~120K doses of 12 separate
 drugs in ~1.5K inpatients at a major children’s hospital in the U.S.
 Treatment orders and first-doses administered were strongly
 time-of-day-dependent (figure below). These 24 h rhythms were consistent
