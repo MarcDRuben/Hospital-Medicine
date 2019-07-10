@@ -4,16 +4,16 @@ Marc Ruben
 7/8/2019
 
 **This repository describes (with code) how we leveraged electronic
-medical record (EMR) data to study trends in treatment and response as a
-function of time-of-day**
+medical record (EMR) data to study treatment and response as a function
+of time-of-day**
 
 ## Background
 
-We TESTER analyzed the daily distribution of ~120K doses of 12 separate
-drugs in ~1.5K inpatients at a major children’s hospital in the U.S.
-Treatment orders and first-doses administered were strongly
-time-of-day-dependent (figure below). These 24 h rhythms were consistent
-across drugs, diagnoses, and hospital units.
+We analyzed the daily distribution of ~120K doses of 12 separate drugs
+in ~1.5K inpatients at a major children’s hospital in the U.S. Treatment
+orders and first-doses administered were strongly time-of-day-dependent
+(figure below). These 24 h rhythms were consistent across drugs,
+diagnoses, and hospital units.
 <https://www.biorxiv.org/content/10.1101/617944v1>
 
 ![image caption Source](images/GitRepo_AllDrugWheels.png)
