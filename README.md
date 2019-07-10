@@ -3,9 +3,9 @@ Tools to study round-the-clock hospital medicine
 Marc Ruben
 7/8/2019
 
-**This repository describes (with code) how we leveraged electronic
-medical record (EMR) data to study treatment and response as a function
-of time-of-day**
+**This repository describes the workflow (with code) for leveraging
+electronic medical record (EMR) data to study treatment and response as
+a function of time-of-day**
 
 ## Background
 
@@ -23,8 +23,11 @@ analyses.
 
 ## Part 1. Extract EMR data from Epic
 
-Extract patient EMR data from Epic. Requires SQL. Code will need to be
-adapted to institutional differences in how Epic data is maintained.
+The following diagram shows how data in Epic moves from Chronicles, to
+Clarity, to divisional data mart. Code will need to be adapted to
+institutional differences in how Epic data is maintained.
+
+![image caption Source](images/EpicSchematic.png)
 
 ## Part 2. Evaluate 24 h patterns in TREATMENT
 
