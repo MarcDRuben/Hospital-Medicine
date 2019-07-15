@@ -18,7 +18,6 @@ diagnoses, and hospital units.
 
 ![image caption Source](images/GitRepo_AllDrugWheels.png)
 
-<<<<<<< HEAD
 Steps below describe how to reproduce these types of analyses.
 
 ## Part 1. Extract EMR data from Epic
@@ -27,16 +26,6 @@ Schematic (below) of how EMR data in Epic moves from Chronicles, to
 Clarity, to CCHMC (Children’s Hospital Medical Center) divisional data
 mart. Your code will need to reflect your institution’s pipeline for
 Epic data.
-=======
-This repository contains descriptions (and code) to reproduce these
-analyses.
-
-## Part 1. Extract EMR data from Epic
-
-The following diagram shows how data in Epic moves from Chronicles, to
-Clarity, to divisional data mart. Code will need to be adapted to
-institutional differences in how Epic data is maintained.
->>>>>>> 27d004df685cbcb1e66a2693c3b566b345ce3f54
 
 ![image caption Source](images/EpicSchematic.png)
 
