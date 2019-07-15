@@ -3,9 +3,9 @@ Tools to study round-the-clock hospital medicine
 Marc Ruben
 7/8/2019
 
-**This repository describes the workflow (with code) for leveraging
-electronic medical record (EMR) data to study treatment and response as
-a function of time-of-day**
+**This repository describes the workflow (with code) to leverage
+electronic medical record (EMR) data for the study of treatment and
+response as a function of time-of-day**
 
 ## Background
 
@@ -24,17 +24,20 @@ Steps below describe how to reproduce these types of analyses.
 
 Schematic (below) of how EMR data in Epic moves from Chronicles, to
 Clarity, to CCHMC (Children’s Hospital Medical Center) divisional data
-mart. Your code will need to reflect your institution’s pipeline for
-Epic data.
+mart. While this is the flow at CCHMC, different institutions maintain
+Epic data differently. The key data elements (ie. patient variables of
+interest) required for this study are provided in the data folder of
+this repository. This file also contains all of the data necessary to
+run Parts 2 and 3 (below).
 
 ![image caption Source](images/EpicSchematic.png)
 
 ## Part 2. Evaluate 24 h patterns in TREATMENT
 
 Characterize the daily distribution of treatment orders and first-doses
-administered. Requires R.
+administered. Code provided. Requires R.
 
 ## Part 3. Evaluate 24 h patterns in RESPONSE
 
-Characterize clinical responses as a function of time of day. Requires
-R.
+Characterize clinical responses as a function of time of day. Code
+provided. Requires R.
