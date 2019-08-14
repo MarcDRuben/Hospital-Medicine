@@ -9,10 +9,10 @@ time-of-day.**
 
 ## Background
 
-We analyzed the daily distribution of ~120K doses of 12 separate drugs
+We analyzed the daily distribution of ~500K doses of 12 separate drugs
 in ~1.5K inpatients at a major children’s hospital in the U.S. Treatment
-orders and first-doses administered were strongly time-of-day-dependent
-(figure below). These 24 h rhythms were consistent across drugs,
+orders and first-doses administered were time-of-day-dependent (figure
+below). These 24 h rhythms were generally consistent across drugs,
 diagnoses, and hospital units.
 <https://www.biorxiv.org/content/10.1101/617944v1>
 
