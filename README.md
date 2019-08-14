@@ -4,8 +4,8 @@ Marc Ruben
 7/8/2019
 
 **This repository describes the workflow (with code) for using
-electronic medical record (EMR) data to study of treatment as a function
-of time-of-day.**
+electronic medical record (EMR) data to study treatment as a function of
+time-of-day.**
 
 ## Background
 

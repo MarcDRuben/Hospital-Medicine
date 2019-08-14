@@ -5,7 +5,7 @@ date: "7/8/2019"
 output: github_document
 ---
 
-**This repository describes the workflow (with code) for using electronic medical record (EMR) data to study of treatment as a function of time-of-day.**
+**This repository describes the workflow (with code) for using electronic medical record (EMR) data to study treatment as a function of time-of-day.**
 
 ## Background
 
