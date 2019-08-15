@@ -1,5 +1,5 @@
 
-#Characterize the 24 distribution of hydralazine (orders AND first-doses) for all inpatients who received the drug at CCHMC from 2011-17
+#Characterize the 24 distribution of hydralazine (orders AND first-doses)
 
 #Required R packages
 library(tidyverse)
@@ -52,9 +52,8 @@ for (i in 1:length(var)) {
     mutate(ORDER_DOSE = var[i])
   fitD <- bind_rows(fitD, fit)
   stats <- data.frame(pval = signif(summary(mod)$transformed.table$p.value[2], digits = 1),
-                      pval2 = signif(cosinor.detect(mod)[4], digits = 2), 
-                      acr = abs(summary(mod)$transformed.table$estimate[3]),
-                      acr2 = abs(correct.acrophase(mod)),
+                      #acr = abs(summary(mod)$transformed.table$estimate[3]),
+                      phase = abs(correct.acrophase(mod)),
                       rsq = signif(cosinor.PR(mod)[2], digits = 2), ORDER_DOSE = var[i])
   statsD <- bind_rows(statsD, stats)
   }
