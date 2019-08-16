@@ -16,7 +16,7 @@ doses <- c("First-dose", "All other doses")
 dat <- input %>%
   #add a patient-order-dose identifier variable
   mutate(PT_ORD_DOS = paste(PATIENT, ORDER_NUM, DOSE_NUM, sep = "_")) %>%
-  #first-doses only
+  #one row per dose
   group_by(PT_ORD_DOS) %>% distinct(PT_ORD_DOS, .keep_all = TRUE) %>%
   #variable for first- vs. all other-doses
   mutate(DOSE_NUM_BIN = ifelse(DOSE_NUM == 1, "First-dose", "All other doses")) %>%
